@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--<< Header Area >>-->
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Gramentheme">
+    <meta name="description" content="Portfolio of Naimish Mishra — App & Game Developer. Flutter (RustBooks, NukeIT), Roblox Lua (TDM shooter), Unity (Bullet Bros LAN).">
+    <!-- ======== Page title ============ -->
+    <title>Naimish Mishra — App & Game Developer (Flutter · Roblox · Unity)</title>
+    <!--<< Favcion >>-->
+    <link rel="shortcut icon" href="assets/img/favicon.svg">
+    <!--<< Bootstrap min.css >>-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--<< All Min Css >>-->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!--<< Animate.css >>-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!--<< Magnific Popup.css >>-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!--<< MeanMenu.css >>-->
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <!--<< Swiper Bundle.css >>-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!--<< Nice Select.css >>-->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <!--<< Color.css >>-->
+    <link rel="stylesheet" href="assets/css/color.css">
+    <!--<< Main.css >>-->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Smooth scroll for anchor links -->
+    <style>
+      html { scroll-behavior: smooth; }
+    </style>
+</head>
+
+<body class="body-color">
+
+    <!-- Preloader Start -->
+    <div id="preloader" class="preloader">
+        <div class="animation-preloader">
+            <div class="spinner"></div>
+            <div class="txt-loading">
+                <span data-text-preloader="P" class="letters-loading">P</span>
+                <span data-text-preloader="O" class="letters-loading">O</span>
+                <span data-text-preloader="R" class="letters-loading">R</span>
+                <span data-text-preloader="T" class="letters-loading">T</span>
+                <span data-text-preloader="F" class="letters-loading">F</span>
+                <span data-text-preloader="O" class="letters-loading">O</span>
+                <span data-text-preloader="L" class="letters-loading">L</span>
+                <span data-text-preloader="I" class="letters-loading">I</span>
+                <span data-text-preloader="O" class="letters-loading">O</span>
+            </div>
+            <p class="text-center">Loading</p>
+        </div>
+        <div class="loader">
+            <div class="row">
+                <div class="col-3 loader-section section-left"><div class="bg"></div></div>
+                <div class="col-3 loader-section section-left"><div class="bg"></div></div>
+                <div class="col-3 loader-section section-right"><div class="bg"></div></div>
+                <div class="col-3 loader-section section-right"><div class="bg"></div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back To Top Start -->
+    <button id="back-top" class="back-to-top">
+        <i class="fa-regular fa-arrow-up"></i>
+    </button>
+
+    <!--<< Mouse Cursor Start >>-->
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
+
+    <!-- Offcanvas Area Start -->
+    <div class="fix-area">
+        <div class="offcanvas__info">
+            <div class="offcanvas__wrapper">
+                <div class="offcanvas__content">
+                    <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+                        <div class="offcanvas__logo">
+                            <a href="#home">
+                                <img src="assets/img/logo/Logo-black.svg" alt="logo-img">
+                            </a>
+                        </div>
+                        <div class="offcanvas__close">
+                            <button><i class="fas fa-times"></i></button>
+                        </div>
+                    </div>
+                    <p class="text d-none d-xl-block">
+                        Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
+                    </p>
+                    <div class="mobile-menu fix mb-3"></div>
+                    <div class="offcanvas__contact">
+                        <h4>Contact Info</h4>
+                        <ul>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon"><i class="fal fa-map-marker-alt"></i></div>
+                                <div class="offcanvas__contact-text"><a target="_blank" href="#">India (Remote-friendly)</a></div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15"><i class="fal fa-envelope"></i></div>
+                                <div class="offcanvas__contact-text"><a href="mailto:naimishmishra.work@gmail.com"><span class="mailto:naimishmishra.work@gmail.com">naimishmishra.work@gmail.com</span></a></div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15"><i class="fal fa-clock"></i></div>
+                                <div class="offcanvas__contact-text"><a target="_blank" href="#">Mon–Fri, 10am–7pm IST</a></div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15"><i class="far fa-phone"></i></div>
+                                <div class="offcanvas__contact-text"><a href="tel:+916207721981">+91 62077 21981</a></div>
+                            </li>
+                        </ul>
+                        <!-- Removed header "Hire Me" button per request -->
+                        <div class="social-icon d-flex align-items-center">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas__overlay"></div>
+
+    <!-- Header Section Start -->
+    <header class="header-1" id="header-sticky">
+        <div class="container-fluid">
+            <div class="mega-menu-wrapper">
+                <div class="header-main">
+                    <div class="logo">
+                        <a href="#home" class="header-logo">
+                            <img src="assets/img/logo/Logo-black.svg" alt="logo-img">
+                        </a>
+                        <div class="logo-2">
+                            <a href="#home"><img src="assets/img/logo/Logo-black.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="mean__menu-wrapper">
+                        <div class="main-menu">
+                            <nav id="mobile-menu">
+                                <ul>
+                                    <li class="active"><a href="#home" class="border-none">Home</a></li>
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#projects">Projects</a></li>
+                                    <li><a href="#experience">Experience</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="header-right d-flex justify-content-end align-items-center">
+                        <!-- Removed: <a href="contact.html" class="theme-btn"> Hire Me ...</a> -->
+                        <div class="header__hamburger d-xl-none my-auto">
+                            <div class="sidebar__toggle"><i class="fas fa-bars"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section Start -->
+    <section id="home" class="hero-section hero-1 fix">
+        <div class="arrow-right-shape"><img src="assets/img/hero/bg-1.png" alt="img"></div>
+        <div class="arrow-shape float-bob-y"><img src="assets/img/hero/angle-arrow.png" alt="img"></div>
+        <div class="arrow-up"><img src="assets/img/hero/arrow.png" alt="img"></div>
+        <div class="hero-info">
+            <a href="#" class="active">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Roblox</a>
+            <a href="#">Portfolio</a>
+        </div>
+        <div class="container">
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-10">
+                    <div class="hero-content">
+                        <span class="text-2"><img src="assets/img/shape/star-2.png" alt="img">Hey There!</span>
+                        <h1>I'm Naimish <span class="style-2">Mishra</span> <br>
+                            <strong class="type-text"></strong></h1>
+                        <div class="hero-bottom">
+                            <p>
+                                I build polished mobile apps in Flutter and multiplayer games in Roblox/Unity — clean UI, solid netcode, and fun moment-to-moment feel.
+                            </p>
+                            <div class="hero-btn-wrapper">
+  <a
+    href="/minifolio/assets/img/Naimish_Resume__GameDev_.pdf"
+    class="theme-btn"
+    download="Naimish_Resume.pdf"
+    type="application/pdf"
+  >
+    Download Resume
+    <i class="fa-solid fa-arrow-right"></i>
+  </a>
+
+  <a href="" class="video-btn video-popup">
+    <span class="icon"><i class="fa-solid fa-play"></i></span>
+    <span class="text">Show Reel</span>
+  </a>
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marquee Section Start -->
+    <section class="marquee-section section-bg fix">
+        <div class="marquee-container">
+            <div class="marquee-wrapper">
+                <div class="marquee-content">
+                    <div class="marquee-text"><img src="assets/img/star/star-2.png" alt="img"><h3>APPS & GAMES THAT SHIP</h3></div>
+                    <div class="marquee-text"><img src="assets/img/star/star-2.png" alt="img"><h3>APPS & GAMES THAT SHIP</h3></div>
+                    <div class="marquee-text"><img src="assets/img/star/star-2.png" alt="img"><h3>APPS & GAMES THAT SHIP</h3></div>
+                    <div class="marquee-text"><img src="assets/img/star/star-2.png" alt="img"><h3>APPS & GAMES THAT SHIP</h3></div>
+                    <div class="marquee-text"><img src="assets/img/star/star-2.png" alt="img"><h3>APPS & GAMES THAT SHIP</h3></div>
+                </div>
+                <div class="marquee-content">
+                    <div class="marquee-text"><img src="assets/img/star/star-2.png" alt="img"><h3>APPS & GAMES THAT SHIP</h3></div>
+                    <div class="marquee-text"><img src="assets/img/star/star-2.png" alt="img"><h3>APPS & GAMES THAT SHIP</h3></div>
+                    <div class="marquee-text"><img src="assets/img/star/star-2.png" alt="img"><h3>APPS & GAMES THAT SHIP</h3></div>
+                    <div class="marquee-text"><img src="assets/img/star/star-2.png" alt="img"><h3>APPS & GAMES THAT SHIP</h3></div>
+                    <div class="marquee-text"><img src="assets/img/star/star-2.png" alt="img"><h3>APPS & GAMES THAT SHIP</h3></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section Start -->
+    <section id="about" class="about-section fix section-padding">
+        <div class="container">
+            <div class="section-title-area">
+                <div class="section-title">
+                    <span class="wow fadeInUp"><img src="assets/img/shape/star-2.png" alt="img">About</span>
+                    <h2 class="wow fadeInUp" data-wow-delay=".2s">Apps with polish. Games with <span>feel</span>.</h2>
+                </div>
+                <div class="content">
+                    <p>Indie app + game developer focused on Flutter apps and multiplayer gameplay. Strong in UI/UX, gameplay systems, client–server architecture, and local-first data design.</p>
+                    <a href="#about" class="theme-btn">More About Me <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section Start -->
+    <section id="projects" class="project-section section-padding fix">
+        <div class="container">
+            <div class="section-title-area">
+                <div class="section-title">
+                    <span class="wow fadeInUp"><img src="assets/img/shape/star-2.png" alt="img">Project</span>
+                    <h2 class="wow fadeInUp" data-wow-delay=".2s">My Featured <span>Protfoilo</span></h2>
+                </div>
+                <a href="#projects" class="theme-btn wow fadeInUp" data-wow-delay=".4s">View All Project <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="project-wrapper">
+                <div class="row g-4">
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="project-items wow img-custom-anim-top" data-wow-delay=".3s">
+                            <div class="image"><img src="assets/img/project/1.png" alt="img"></div>
+                            <div class="content">
+                                <div class="text"><span>Flutter / Firebase</span>
+                                    <h4><a href="#projects">RustBooks — Audiobook & eBook App</a></h4>
+                                </div>
+                                <div class="icon"><a href="https://drive.google.com/drive/folders/1HE4AhJmLgoFPXJgqtzJMMNBaUtdGXa4s?usp=sharing"><i class="fa-solid fa-arrow-right"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="project-items wow img-custom-anim-top" data-wow-delay=".6s">
+                            <div class="image"><img src="assets/img/project/3.png" alt="img"></div>
+                            <div class="content">
+                                <div class="text"><span>Flutter / Hive</span>
+                                    <h4><a href="#projects">NukeIT — Habit & Streak Tracker</a></h4>
+                                </div>
+                                <div class="icon"><a href="https://drive.google.com/drive/folders/1OjMfOI7cH7dAo5NCJ8-3cthZHnJ7J2rK?usp=sharing"><i class="fa-solid fa-arrow-right"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-6 col-md-6">
+                        <div class="project-items wow img-custom-anim-top" data-wow-delay=".9s">
+                            <div class="image"><img src="assets/img/project/2.png" alt="img"></div>
+                            <div class="content">
+                                <div class="text"><span>Roblox / Lua</span>
+                                    <h4><a href="#projects">One Shot Arena — TDM Shooter</a></h4>
+                                </div>
+                                <div class="icon"><a href="https://www.roblox.com/games/94892212091830/"><i class="fa-solid fa-arrow-right"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-6 col-md-6">
+                        <div class="project-items wow img-custom-anim-top" data-wow-delay="1.2s">
+                            <div class="image"><img src="assets/img/project/4.png" alt="img"></div>
+                            <div class="content">
+                                <div class="text"><span>Unity / Photon PUN 2</span>
+                                    <h4><a href="#projects">Bullet Bros (Multiplayer — LAN)</a></h4>
+                                </div>
+                                <div class="icon"><a href="https://drive.google.com/drive/folders/1CHSB3Pji3ESVttmUbwzzIYjH0LyR1LRP?usp=sharing"><i class="fa-solid fa-arrow-right"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section Start -->
+    <section id="experience" class="experience-section section-padding section-bg fix">
+        <div class="container">
+            <div class="section-title  text-center">
+                <span class="wow fadeInUp"><img src="assets/img/shape/star-2.png" alt="img">My Experience<img src="assets/img/shape/star-2.png" alt="img"></span>
+                <h2 class="wow fadeInUp" data-wow-delay=".2s">My Work Experience</h2>
+            </div>
+            <div class="experience-wrapper">
+                <div class="experience-items wow fadeInUp" data-wow-delay=".2s">
+                    <span>Sep 2022 – Mar 2023</span>
+                    <h4>Graphic Designer & Frontend Developer</h4>
+                    <h6>BlokMiners</h6>
+                </div>
+                <div class="experience-items wow fadeInUp" data-wow-delay=".4s">
+                    <span>Jan 2025 – Feb 2025</span>
+                    <h4>Training Program for Trainers (Top 10 Nationwide)</h4>
+                    <h6>Koenig Solutions</h6>
+                </div>
+                <div class="experience-items wow fadeInUp" data-wow-delay=".6s">
+                    <span>Mar 2025 – Jul 2025</span>
+                    <h4>Creative Developer</h4>
+                    <h6>Uncle Fab</h6>
+                </div>
+                <div class="experience-items wow fadeInUp" data-wow-delay=".8s">
+                    <span>Jul 2021 – Jun 2025</span>
+                    <h4>B.Tech — Computer Science (CGPA 8.3/10)</h4>
+                    <h6>Chandigarh University</h6>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact (Footer) Section Start -->
+    <footer id="contact" class="footer-section fix fix">
+       <div class="bg-shape"><img src="assets/img/footer/bg-shape.png" alt="img"></div>
+       <div class="mycustom-marque">
+            <div class="scrolling-wrap style-2">
+                <div class="comm"><div></div><div class="cmn-textslide">Have a In Mind? Lets Work</div><div class="cmn-textslide">TOGETHER</div></div>
+                <div class="comm"><div></div><div class="cmn-textslide">Have a In Mind? Lets Work</div><div class="cmn-textslide">TOGETHER</div></div>
+                <div class="comm"><div></div><div class="cmn-textslide">Have a In Mind? Lets Work</div><div class="cmn-textslide">TOGETHER</div></div>
+            </div>
+       </div>
+        <div class="container">
+            <div class="footer-widget-wrapper">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="footer-item">
+                            <a href="#home" class="footer-logo wow fadeInUp" data-wow-delay=".3s">
+                                <img src="assets/img/logo/Logo-black.svg" alt="img">
+                            </a>
+                            <ul class="footer-list-items wow fadeInUp" data-wow-delay=".5s">
+                                <li><a href="#about">ABOUT ME</a></li>
+                                <li><a href="#projects">PROJECTS</a></li>
+                                <li><a href="#projects">PORTFOLIO</a></li>
+                                <li><a href="#experience">EXPERIENCE</a></li>
+                                <li><a href="#contact">CONTACT US</a></li>
+                            </ul>
+                            <ul class="social-icon wow fadeInUp" data-wow-delay=".3s">
+                                <li><i class="fa-brands fa-linkedin-in"></i> LinkedIn</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-wrapper">
+                    <p class="wow fadeInUp" data-wow-delay=".3s">© <span>Naimish Mishra</span></p>
+                    <ul class="footer-list wow fadeInUp" data-wow-delay=".5s">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--<< All JS Plugins >>-->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!--<< Viewport Js >>-->
+    <script src="assets/js/viewport.jquery.js"></script>
+    <!--<< Bootstrap Js >>-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!--<< Nice Select Js >>-->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!--<< Waypoints Js >>-->
+    <script src="assets/js/jquery.waypoints.js"></script>
+    <!--<< Counterup Js >>-->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!--<< Swiper Slider Js >>-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!--<< MeanMenu Js >>-->
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <!--<< Magnific Popup Js >>-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!--<< Wow Animation Js >>-->
+    <script src="assets/js/wow.min.js"></script>
+    <!--<< Typed Js >>-->
+    <script src="assets/js/typed.min.js"></script>
+    <!--<< Main.js >>-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
